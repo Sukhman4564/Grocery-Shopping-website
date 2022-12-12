@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come Grocery Shopping with us!</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Freshies </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart" id="cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total : $19.69/- </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+            <p>Forget your password: <a href="#">Click here</a></p>
+            <p>Don't have an account: <a href="#">Create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Fresh and <span>organic</span> products for your kitchen</h3>
+            <p>We believe organic is best — both for us and our planet. Unlike conventional farming, organic farming
+                results in a gentler footprint, all while replenishing soil health and our natural ecosystems. Growing
+                organically requires extra effort and attention to things like crop rotations, controlling disease and
+                pests, tilling of the land, and how and when the vegetables are harvested. Freshies is dedicated to
+                sustainability, responsible farming and efficiently preparing our products to minimize waste.</p>
+            <a href="#categories" class="btn">Shop now</a>
+        </div>
+
+    </section>
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+    <section class="features" id="features">
+
+        <h1 class="heading"> Our <span>features</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./image/feature-img-1.png" alt="">
+                <h3>Fresh and organic</h3>
+                <p>We provide fresh and organic food!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/feature-img-2.png" alt="">
+                <h3>Free delivery</h3>
+                <p>Delivery at your doorstep!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/feature-img-3.png" alt="">
+                <h3>Easy payments</h3>
+                <p>Payments can be easily done!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- features section ends -->
+
+    <!-- categories section starts  -->
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> Product <span>categories</span> </h1>
+
+        <div id="d-category" class="box-container">
+        </div>
+
+    </section>
+    <!-- categories section ends -->
+
+    <!-- products section starts  -->
+    <section class="products" id="products">
+
+        <h1 class="heading"> Our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div id="wrapper" class="swiper-wrapper">
+
+
+            </div>
+
+            <div id="wrapper1" class="swiper-wrapper">
+
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <!-- products section ends -->
+
+
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-1.png" alt="">
+                    <p>Received my order a week back. Wanted to say that even though the order reached me much later
+                        than expected, the watermelon were in perfect condition & truly delicious! Reminded me of
+                        watermelon I ate in India during my childhood. Thank you very much & have a wonderful weekend.
+                        Regards, John Deo</p>
+                    <h3>John Deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-2.png" alt="">
+                    <p>Loved the organic vegetables I ordered</p>
+                    <h3>Ema</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-3.png" alt="">
+                    <p>My order was on my porch when l arrived home just now. Thank you so much! This is my first time
+                        ordering with your company. I want to continue to order from you. Since the pandemic, over 95%
+                        of my purchases are on line. I find it to be way more convient. So, PLEASE forgive me for being
+                        a little upset. It wasn't with you but the carrier that delivered the package because the
+                        mistake has happened a few times. So please keep my information on file about my home's
+                        description so this won't happen again. Thanks again so much & have a great weekend!</p>
+                    <h3>Harry Watts</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/pic-4.png" alt="">
+                    <p>Fast, fresh and worth the price.</p>
+                    <h3>Karima</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Freshies <i class="fas fa-shopping-basket"></i> </h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> freshies@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Montreal, Canada</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="Your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="./image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> Created by <span> Sukhmanjot Kaur and Vanshika</span> | All Rights Reserved </div>
+
+    </section>
+    <!-- footer section ends -->
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./js/categories.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
